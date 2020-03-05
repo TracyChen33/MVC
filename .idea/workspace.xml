@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d857fb30-7b1f-4feb-9e45-314ce0a21ecc" name="Default Changelist" comment="" />
+    <list default="true" id="d857fb30-7b1f-4feb-9e45-314ce0a21ecc" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/app3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,12 +29,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YgYbgDGHzjZ9NoLvC9x0dm9dcA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -48,18 +71,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583365778529</updated>
-      <workItem from="1583365783633" duration="7328000" />
+      <workItem from="1583365783633" duration="9721000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="603" y="11" key="CommitChangelistDialog2" timestamp="1583381171407">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="603" y="11" key="CommitChangelistDialog2/-310.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1583381171407" />
     <state x="221" y="63" key="SettingsEditor" timestamp="1583365969423">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="221" y="63" key="SettingsEditor/-310.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1583365969423" />
+    <state x="640" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583381319494">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="640" y="190" key="Vcs.Push.Dialog.v2/-310.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1583381213902" />
+    <state x="640" y="190" key="Vcs.Push.Dialog.v2/-310.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1583381319494" />
     <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1583365961584">
       <screen x="0" y="23" width="1440" height="803" />
     </state>

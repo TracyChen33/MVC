@@ -11014,6 +11014,8 @@ return jQuery;
 },{"process":"../../../../.config/yarn/global/node_modules/process/browser.js"}],"app1.js":[function(require,module,exports) {
 "use strict";
 
+require("./app1.css");
+
 var _jquery = _interopRequireDefault(require("jquery"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -11049,13 +11051,15 @@ $button4.on('click', function () {
   localStorage.setItem("n", n);
   $number.text(n);
 });
-},{"jquery":"../node_modules/jquery/dist/jquery.js"}],"app2.css":[function(require,module,exports) {
+},{"./app1.css":"app1.css","jquery":"../node_modules/jquery/dist/jquery.js"}],"app2.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 },{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel/src/builtins/css-loader.js"}],"app2.js":[function(require,module,exports) {
 "use strict";
+
+require("./app2.css");
 
 var _jquery = _interopRequireDefault(require("jquery"));
 
@@ -11070,21 +11074,59 @@ $tabBar.on("click", "li", function (e) {
   $tabContent.children().eq(index).addClass('active').siblings().removeClass('active');
 });
 $tabBar.children().eq(0).trigger('click');
-},{"jquery":"../node_modules/jquery/dist/jquery.js"}],"main.js":[function(require,module,exports) {
+},{"./app2.css":"app2.css","jquery":"../node_modules/jquery/dist/jquery.js"}],"app3.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel/src/builtins/css-loader.js"}],"app3.js":[function(require,module,exports) {
+"use strict";
+
+var _jquery = _interopRequireDefault(require("jquery"));
+
+require("./app3.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var $quare = (0, _jquery.default)('#app3 .square');
+$quare.on('click', function () {
+  $quare.toggleClass('active');
+});
+},{"jquery":"../node_modules/jquery/dist/jquery.js","./app3.css":"app3.css"}],"app4.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel/src/builtins/css-loader.js"}],"app4.js":[function(require,module,exports) {
+"use strict";
+
+require("./app4.css");
+
+var _jquery = _interopRequireDefault(require("jquery"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var $circle = (0, _jquery.default)('#app4 .circle');
+$circle.on('mouseenter', function () {
+  $circle.addClass('active');
+}).on('mouseleave', function () {
+  $circle.removeClass('active');
+});
+},{"./app4.css":"app4.css","jquery":"../node_modules/jquery/dist/jquery.js"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 require("./reset.css");
 
 require("./global.css");
 
-require("./app1.css");
-
 require("./app1.js");
 
-require("./app2.css");
-
 require("./app2.js");
-},{"./reset.css":"reset.css","./global.css":"global.css","./app1.css":"app1.css","./app1.js":"app1.js","./app2.css":"app2.css","./app2.js":"app2.js"}],"../../../../.config/yarn/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+require("./app3.js");
+
+require("./app4.js");
+},{"./reset.css":"reset.css","./global.css":"global.css","./app1.js":"app1.js","./app2.js":"app2.js","./app3.js":"app3.js","./app4.js":"app4.js"}],"../../../../.config/yarn/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
