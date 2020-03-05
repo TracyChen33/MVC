@@ -2,8 +2,15 @@ import $ from 'jquery'
 import './app3.css'
 
 
-const $quare = $('#app3 .square')
+const $square = $('#app3 .square')
 
-$quare.on('click',()=>{
-  $quare.toggleClass('active')
+
+$square.on('click',()=>{
+  if($square.hasClass('active')){
+    $square.removeClass('active')
+    localStorage.setItem('app3.active','no')
+  }else{
+    $square.addClass('active')
+    localStorage.setItem('app3.active','yes')
+  }
 })

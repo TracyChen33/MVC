@@ -11091,9 +11091,15 @@ require("./app3.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $quare = (0, _jquery.default)('#app3 .square');
-$quare.on('click', function () {
-  $quare.toggleClass('active');
+var $square = (0, _jquery.default)('#app3 .square');
+$square.on('click', function () {
+  if ($square.hasClass('active')) {
+    $square.removeClass('active');
+    localStorage.setItem('app3.active', 'no');
+  } else {
+    $square.addClass('active');
+    localStorage.setItem('app3.active', 'yes');
+  }
 });
 },{"jquery":"../node_modules/jquery/dist/jquery.js","./app3.css":"app3.css"}],"app4.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
