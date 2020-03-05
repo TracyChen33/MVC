@@ -11092,13 +11092,16 @@ require("./app3.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var $square = (0, _jquery.default)('#app3 .square');
+var localKey = 'app3.active';
+var active = localStorage.getItem(localKey) === 'yes';
+$square.toggleClass('active', active);
 $square.on('click', function () {
   if ($square.hasClass('active')) {
     $square.removeClass('active');
-    localStorage.setItem('app3.active', 'no');
+    localStorage.setItem(localKey, 'no');
   } else {
     $square.addClass('active');
-    localStorage.setItem('app3.active', 'yes');
+    localStorage.setItem(localKey, 'yes');
   }
 });
 },{"jquery":"../node_modules/jquery/dist/jquery.js","./app3.css":"app3.css"}],"app4.css":[function(require,module,exports) {
