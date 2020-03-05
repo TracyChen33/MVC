@@ -11067,13 +11067,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var $tabBar = (0, _jquery.default)('#app2 .tab-bar');
 var $tabContent = (0, _jquery.default)('#app2 .tab-content');
-$tabBar.on("click", "li", function (e) {
+var localKey = "app2.index";
+var index = localStorage.getItem(localKey) || 0;
+$tabBar.on('click', 'li', function (e) {
   var $li = (0, _jquery.default)(e.currentTarget);
-  $li.addClass("selected").siblings().removeClass("selected");
+  $li.addClass('selected').siblings().removeClass('selected');
   var index = $li.index();
+  localStorage.setItem(localKey, index);
   $tabContent.children().eq(index).addClass('active').siblings().removeClass('active');
 });
-$tabBar.children().eq(0).trigger('click');
+$tabBar.children().eq(index).trigger('click');
 },{"./app2.css":"app2.css","jquery":"../node_modules/jquery/dist/jquery.js"}],"app3.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
@@ -11154,7 +11157,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52720" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53574" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
