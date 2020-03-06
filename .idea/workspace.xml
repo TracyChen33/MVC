@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d857fb30-7b1f-4feb-9e45-314ce0a21ecc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583365778529</updated>
-      <workItem from="1583365783633" duration="12489000" />
+      <workItem from="1583365783633" duration="13512000" />
     </task>
     <task id="LOCAL-00001" summary="app3.localStorage">
       <created>1583395438829</created>
@@ -67,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583395438829</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="localStorageApp3">
+      <created>1583396129652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583396129652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,26 +89,39 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="app3.localStorage" />
-    <option name="LAST_COMMIT_MESSAGE" value="app3.localStorage" />
+    <MESSAGE value="localStorageApp3" />
+    <option name="LAST_COMMIT_MESSAGE" value="localStorageApp3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="603" y="11" key="CommitChangelistDialog2" timestamp="1583395438623">
+    <state x="603" y="11" key="CommitChangelistDialog2" timestamp="1583396129445">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="603" y="11" key="CommitChangelistDialog2/-310.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1583381171407" />
-    <state x="603" y="11" key="CommitChangelistDialog2/-310.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1583395438623" />
+    <state x="603" y="11" key="CommitChangelistDialog2/-310.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1583396129445" />
     <state x="221" y="63" key="SettingsEditor" timestamp="1583365969423">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="221" y="63" key="SettingsEditor/-310.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1583365969423" />
-    <state x="640" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583395449640">
+    <state x="640" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583396143347">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="640" y="190" key="Vcs.Push.Dialog.v2/-310.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1583381213902" />
-    <state x="640" y="190" key="Vcs.Push.Dialog.v2/-310.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1583395449640" />
+    <state x="640" y="190" key="Vcs.Push.Dialog.v2/-310.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1583396143347" />
     <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1583365961584">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="385" y="150" width="670" height="676" key="search.everywhere.popup/-310.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1583365961584" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app3.js</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

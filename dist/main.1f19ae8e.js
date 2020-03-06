@@ -11020,35 +11020,37 @@ var _jquery = _interopRequireDefault(require("jquery"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var html = "\n  <section id=\"app1\">\n    <div class=\"output\">\n      <span id=\"number\">100</span>\n    </div>\n\n    <div class=\"actions\">\n      <button id=\"add1\">+1</button>\n      <button id=\"minus1\">-1</button>\n      <button id=\"mul2\">*2</button>\n      <button id=\"divide2\">\xF72</button>\n    </div>\n  </section>\n";
+var $element = (0, _jquery.default)(html).appendTo((0, _jquery.default)('body > .page'));
 var $button1 = (0, _jquery.default)('#add1');
 var $button2 = (0, _jquery.default)('#minus1');
 var $button3 = (0, _jquery.default)('#mul2');
 var $button4 = (0, _jquery.default)('#divide2');
 var $number = (0, _jquery.default)('#number');
-var n = localStorage.getItem("n");
+var n = localStorage.getItem('n');
 $number.text(n || 100);
 $button1.on('click', function () {
   var n = parseInt($number.text());
   n += 1;
-  localStorage.setItem("n", n);
+  localStorage.setItem('n', n);
   $number.text(n);
 });
 $button2.on('click', function () {
   var n = parseInt($number.text());
   n -= 1;
-  localStorage.setItem("n", n);
+  localStorage.setItem('n', n);
   $number.text(n);
 });
 $button3.on('click', function () {
   var n = parseInt($number.text());
   n *= 2;
-  localStorage.setItem("n", n);
+  localStorage.setItem('n', n);
   $number.text(n);
 });
 $button4.on('click', function () {
   var n = parseInt($number.text());
   n /= 2;
-  localStorage.setItem("n", n);
+  localStorage.setItem('n', n);
   $number.text(n);
 });
 },{"./app1.css":"app1.css","jquery":"../node_modules/jquery/dist/jquery.js"}],"app2.css":[function(require,module,exports) {
@@ -11065,6 +11067,8 @@ var _jquery = _interopRequireDefault(require("jquery"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var html = "\n <section id=\"app2\">\n    <ol class=\"tab-bar\">\n      <li>11111</li>\n      <li>22222</li>\n    </ol>\n    <ol class=\"tab-content\">\n      <li>content1</li>\n      <li>content2</li>\n    </ol>\n  </section>\n";
+var $element = (0, _jquery.default)(html).appendTo((0, _jquery.default)('body > .page'));
 var $tabBar = (0, _jquery.default)('#app2 .tab-bar');
 var $tabContent = (0, _jquery.default)('#app2 .tab-content');
 var localKey = "app2.index";
@@ -11091,6 +11095,8 @@ require("./app3.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var html = "\n <section id=\"app3\">\n    <div class=\"square\"></div>\n  </section>\n";
+var $element = (0, _jquery.default)(html).appendTo((0, _jquery.default)('body > .page'));
 var $square = (0, _jquery.default)('#app3 .square');
 var localKey = 'app3.active';
 var active = localStorage.getItem(localKey) === 'yes';
@@ -11118,6 +11124,8 @@ var _jquery = _interopRequireDefault(require("jquery"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var html = " \n <section id=\"app4\">\n    <div class=\"circle\"></div>\n  </section>\n";
+var $element = (0, _jquery.default)(html).appendTo((0, _jquery.default)('body > .page'));
 var $circle = (0, _jquery.default)('#app4 .circle');
 $circle.on('mouseenter', function () {
   $circle.addClass('active');
